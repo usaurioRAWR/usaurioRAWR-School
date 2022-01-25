@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Introducción a CSS - usaurioRAWR-Schools</title>
+		<link href="../../css/css.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="../../imagenes/dino_icon_verde_32px.ico">
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="../../index.html">usaurioRAWR-Schools</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+				<span class="navbar-toggler-icon"></span> 
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"> 
+						<a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a> 
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link active" href="https://github.com/usaurioRAWR/Lenguaje-de-marcado">GitHub</a> 
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contenido</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="../html/introduccion_html.html">HTML</a>
+							<a class="dropdown-item" href="introduccion_css.html">CSS</a> 
+							<a class="dropdown-item" href="../svg/introduccion_svg.html">SVG</a>
+							<a class="dropdown-item" href="../xhtml/introduccion_xhtml.html">XHTML</a>
+							<a class="dropdown-item" href="../markdown/introduccion_markdown.html">Markdown</a>
+							<a class="dropdown-item" href="../javascript/introduccion_javascript.html">JavaScript</a> 
+							<div class="dropdown-divider"></div>
+						</div>
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link disabled" href="">🤫&nbsp;&nbsp;1°ASIR</a>
+					</li>
+				</ul>
+				<div class="dropdown-divider"></div>
+				<div id='google_translate_element'></div>
+			</div>
+		</nav>
+		
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="jumbotron">
+						<h1 class="text-center">Introducción a CSS</h1>
+						<br>
+							<div class="row justify-content-center">
+								<div class="col-auto">
+									<p>
+										<a class="btn btn-success btn-lg" href="../../index.html" role="button">Inicio</a> 
+									</p>
+								</div>
+								<div class="col-auto">
+									<p>
+										<a class="btn btn-primary btn-lg" href="elementos_html.html" role="button" >Siguiente</a> 
+									</p>
+								</div>
+							</div>
+						<p class="text-center">CSS es el lenguaje que utilizamos para dar estilo a una página Web.</p>
+						<div alt="" class="img-fluid"> 
+							<h3>¿Qué es CSS?</h3>
+							<ul>
+							  <li>CSS son las siglas de Cascading Style Sheets (Hojas de estilo en cascada)</li>
+							  <li>CSS describe cómo se deben mostrar los elementos HTML en la pantalla, el papel o en otros medios</li>
+							  <li>CSS ahorra mucho trabajo. Puede controlar el diseño de varias páginas web a la vez</li>
+							  <li>Las hojas de estilo externas se almacenan en archivos CSS</li>
+                          </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="text-center col-md-6 col-12">
+					<h3>Lorem ipsum</h3>
+					<div class="section1Content">
+						<p><span>Nombre :&nbsp;Introducción a CSS</span> </p>
+						<p><span>Autor :&nbsp;Javier Eguíluz Pérez</span> </p>
+						<p><span>Editorial :&nbsp;https://uniwebsidad.com/</span> </p>
+						<p><span>Web :&nbsp;https://uniwebsidad.com/libros/xhtml</span> </p>
+				  </div>
+					<a class="btn btn-danger btn-lg" href="https://raw.githubusercontent.com/usaurioRAWR/Lenguaje-de-marcado/master/Tema%202/Documentation/Apuntes/introduccion_css.pdf" role="button">Descargar.</a>
+				</div>
+				<div class="text-center col-md-6 col-12">
+					<h3>&nbsp;PDF</h3>
+					<div class="section1Content">
+						<p><span>Nombre : CSS Avanzado</span> </p>
+						<p><span>Autor :&nbsp;Javier Eguíluz Pérez</span> </p>
+						<p><span>Editorial :&nbsp;https://uniwebsidad.com/</span> </p>
+						<p><span>Web :&nbsp;https://uniwebsidad.com/libros/xhtml</span> </p>
+					</div>
+					<a class="btn btn-info btn-lg" href="https://raw.githubusercontent.com/usaurioRAWR/Lenguaje-de-marcado/master/Tema%202/Documentation/Apuntes/css_avanzado.pdf" role="button">Descargar.</a>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">¿Por qué usar CSS?</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>CSS se utiliza para definir estilos para sus páginas web, incluido el diseño, el diseño y las variaciones en la visualización para diferentes dispositivos y tamaños de pantalla.</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo de CSS</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+					  <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_link" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr> 
+		<section>
+			<h2 class="text-center">CSS resolvió un gran problema</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>¡HTML NUNCA tuvo la intención de contener etiquetas para formatear una página web!</p>
+						<p>HTML fue creado para describir el contenido de una página web, como:</p>
+						<p>&lt;h1&gt;Este es un encabezado&lt;/h1&gt;</p>
+						<p>&lt;p&gt;Este es un párrafo.&lt;/p&gt;</p>
+						<p>Cuando se agregaron etiquetas como &lt;font&gt; y atributos de color a la especificación HTML 3.2, comenzó una pesadilla para los desarrolladores web. El desarrollo de grandes sitios web, donde se agregaron fuentes e información de color a cada página, se convirtió en un proceso largo y costoso.</p>
+						<p>Para resolver este problema, el World Wide Web Consortium (W3C) creó CSS.</p>
+						<p>¡CSS eliminó el formato de estilo de la página HTML!</p>
+					</div>
+				</div>
+		  </div>
+	</div>
+		<hr> 
+		<section>
+			<h2 class="text-center">¡CSS ahorra mucho trabajo!</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>Las definiciones de estilo normalmente se guardan en archivos .css externos.</p>
+						<p>¡Con un archivo de hoja de estilo externo, puede cambiar el aspecto de un sitio web completo cambiando solo un archivo!</p>
+					</div>
+				</div>
+		  </div>
+	</div>
+	<hr>
+	<div class="container">
+			<div class="row">
+				<div class="container py-sm-4">
+					<div class="row">
+						<div class="col-md-10 my-4 mx-auto">
+							<a href="elementos_html.html">
+								<h2 class="text-center">Sintaxis CSS</h2>
+							</a>
+							<hr>
+							<div class="row no-gutters my-3">
+								<div class="col-md-4 pr-2"></div>
+								<div class="col-md-4">
+									<div class="list-group text-center">
+										<a href="atributos_html.html" class="list-group-item">Selectores CSS</a>
+										<a href="encabezados_html.html" class="list-group-item">Cómo agregar CSS</a>
+										<a href="parrafos_html.html" class="list-group-item">Comentarios CSS</a>
+										<a href="estilos_html.html" class="list-group-item">Colores CSS</a>
+										<a href="formato_texto_html.html" class="list-group-item">Fondos CSS</a>
+										<a href="formato_texto_html.html" class="list-group-item">Bordes CSS</a>
+									</div>
+								</div>
+								<div class="col-md-4 pl-2"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+	<footer class="text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<p>Copyright © usaurioRAWR-School.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../../js/google_translate_element.js"></script> 	
+ 		<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+		<script src="../../js/jquery-3.4.1.min.js"></script>
+		<script src="../../js/popper.min.js"></script>
+		<script src="../../js/bootstrap-4.4.1.js"></script>
+	</body>
+</html>

@@ -4,39 +4,46 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Bootstrap Agency Page Template</title>
-		<!-- Bootstrap -->
-		<link href="CSS/bootstrap-4.4.1.css" rel="stylesheet">
+		<title>Home - usaurioRAWR-Schools</title>
+		<link href="css/css.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="imagenes/dino_icon_verde_32px.ico">
 	</head>
-	
+
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#">usaurioRAWR-Schools</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+				<span class="navbar-toggler-icon"></span> 
+			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
-					<li class="nav-item"> <a class="nav-link" href="https://github.com/usaurioRAWR/Lenguaje-de-marcado">GitHub</a> </li>
+					<li class="nav-item"> 
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> 
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link" href="https://github.com/usaurioRAWR/Lenguaje-de-marcado">GitHub</a> 
+					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Codigo de la pagina&nbsp; </a>
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contenido</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">HTML</a>
-							<a class="dropdown-item" href="#">CSS</a> 
-							<a class="dropdown-item" href="#">JavaScript</a> 
-							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="modulos/html/introduccion_html.html">HTML</a>
+							<a class="dropdown-item" href="modulos/css/introduccion_css.html">CSS</a> 
+							<a class="dropdown-item" href="modulos/svg/introduccion_svg.html">SVG</a>
+							<a class="dropdown-item" href="modulos/xhtml/introduccion_xhtml.html">XHTML</a>
+							<a class="dropdown-item" href="modulos/markdown/introduccion_markdown.html">Markdown</a>
+							<a class="dropdown-item" href="modulos/javascript/introduccion_javascript.html">JavaScript</a> 
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a> 
 						</div>
 					</li>
-					<li class="nav-item"> <a class="nav-link disabled" href="">🤫&nbsp;&nbsp;1°ASIR</a></li>
-					<li class="nav-item">&nbsp;</li>
+					<li class="nav-item"> 
+						<a class="nav-link disabled" href="">🤫&nbsp;&nbsp;1°ASIR</a>
+					</li>
 				</ul>
-				<!--<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>-->
+				<div class="dropdown-divider"></div>
+				<div id='google_translate_element'></div>
 			</div>
 		</nav>
+		
 		<header>
 			<div class="jumbotron">
 				<div class="container">
@@ -45,63 +52,66 @@
 							<h1 class="text-center">Bienvenido al usaurioRAWR-School&nbsp;</h1>
 							<p class="text-center">Esta pagina a sido desarrollada con código abierto y mis conocimientos adquiridos en el modulo Lenguajes de marcas y sistemas de gestión de información.&nbsp;</p>
 							<p class="text-center">Este es mi proyecto de Primer Trimestr .&nbsp;</p>
-<p class="text-center"><a class="btn btn-primary btn-lg" href="https://github.com/usaurioRAWR/Lenguaje-de-marcado" role="button">usaurioRAWR / Lenguaje-de-marcado</a> </p>
+							<p class="text-center"><a class="btn btn-primary btn-lg" href="https://github.com/usaurioRAWR/Lenguaje-de-marcado" role="button">usaurioRAWR / Lenguaje-de-marcado</a> </p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</header>
+		
 		<section>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 mb-4 mt-2 text-center">
-						<h2>Contenido</h2>
+					<h2>Contenido</h2>
 					</div>
 				</div>
 			</div>
 			<div class="container ">
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<a href="modulos/modulo_html.html">
+						<a href="modulos/html/introduccion_html.html">
 							<img class="#rounded-circle" alt="HTML" style="width: 140px; height: 140px;" src="imagenes/html1.svg" data-holder-rendered="true">
 						</a>
 						<h3>HTML</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+						<p>
+						HTML es el lenguaje de marcado estándar para páginas web, con el puede crear tupropio sitio web.
+						</p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<a href="modulos/modulo_css.html">
+						<a href="modulos/css/introduccion_css.html">
 							<img class="#rounded-circle" alt="CSS" style="width: 140px; height: 140px;" src="imagenes/css1.svg" data-holder-rendered="true">
 						</a>
-						<h3>&nbsp;CSS</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <h3>CSS</h3>
+						<p>CSS es el lenguaje que utilizamos para dar estilo a un documento HTML, con el podras&nbsp; escribe cómo se deben mostrar los elementos HTML.</p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<a href="#">
+						<a href="modulos/svg/introduccion_svg.html">
 							<img class="#rounded-circle" alt="SVG" style="width: 140px; height: 140px;" src="imagenes/svg.svg" data-holder-rendered="true">
 						</a>
 						<h3>SVG&nbsp;</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+						<p>SVG define gráficos basados en vectores en formato XML.</p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<a href="#">
+						<a href="modulos/xhtml/introduccion_xhtml.html">
 							<img class="#rounded-circle" alt="XHTML" style="width: 140px; height: 140px;" src="imagenes/xhtml.svg" data-holder-rendered="true">
 						</a>
 						<h3>XHTML</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+						<p>XHTML es una versión más estricta, basada en XML y HTML.</p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<a href="#">
+						<a href="modulos/markdown/introduccion_markdown.html">
 							<img class="'rounded-circle" alt="Markdown" style="width: 140px; height: 140px;" src="imagenes/Markdown.svg" data-holder-rendered="true">
 						</a>
 						<h3>Markdown</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+						<p>Lenguaje de marcado facili de aplicar para dar formato a un texto empleando una serie de caracteres de una forma especial.</p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 text-center">
-						<a href="#">
+						<a href="modulos/javascript/introduccion_javascript.html">
 							<img class="#rounded-circle" alt="JavaScript" style="width: 140px; height: 140px;" src="imagenes/javascript1.svg" data-holder-rendered="true">
 						</a>
 						<h3>JavaScript</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+						<p>Es el lenguaje de programación más popular del mundo de la programación de  Web y es fácil de aprender.</p>
 					</div>
 				</div>
 				<div class="row">
@@ -113,25 +123,35 @@
 					<div class="col-sm-6 col-lg-6">
 						<blockquote class="blockquote">
 							<p class="mb-0">Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.</p>
-							<small class="blockquote-footer">Lorem ipsum <cite title="Wikipedia">Wikipedia</cite></small> 
+							<small class="blockquote-footer">
+								Lorem ipsum 
+								<cite title="Wikipedia">Wikipedia</cite>
+							</small> 
 						</blockquote>
 					</div>
 					<div class="col-sm-6 col-lg-6">
 						<blockquote class="blockquote">
 							<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-							<small class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></small> 
+							<small class="blockquote-footer">
+								Someone famous in 
+								<cite title="Source Title">Source Title</cite>
+							</small> 
 						</blockquote>
 					</div>
 					<div class="col-sm-6 col-lg-6">
 						<blockquote class="blockquote">
 							<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-							<small class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></small> 
+							<small class="blockquote-footer">
+								Someone famous in <cite title="Source Title">Source Title</cite>
+							</small> 
 						</blockquote>
 					</div>
 					<div class="col-sm-6 col-lg-6">
 						<blockquote class="blockquote">
 							<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-							<small class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></small> 
+							<small class="blockquote-footer">
+								Someone famous in 
+								<cite title="Source Title">Source Title</cite></small> 
 						</blockquote>
 					</div>
 				</div>
@@ -157,64 +177,66 @@
 				<div class="row">
 					<div class="col-sm-6 col-lg-4">
 						<h3>Feature Description</h3>
-						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt impedit est voluptatem doloremque architecto corporis suscipit quidem ratione! Quis laborum nam optio dolorem doloremque ex nobis quibusdam ad quo dolores? </p>
-						<p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt impedit est voluptatem doloremque <strong>hola</strong> hola, x<sup>2</sup>, h<sub>2</sub>o, architecto corporis suscipit quidem ratione! Quis laborum nam optio dolorem doloremque ex nobis quibusdam ad quo dolores? </p>
+						<p><a class="btn btn-link" href="#"> Hola »</a></p>
 					</div>
 					<div class="col-sm-6 col-lg-4">
 						<h3>Feature Description</h3>
 						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, illo, libero esse assumenda culpa consequatur exercitationem beatae odio praesentium nihil iste ipsum reiciendis pariatur. Recusandae, reiciendis quidem eaque aut ab. </p>
-						<p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+						<p><a class="btn btn-link" href="#">View details »</a></p>
 					</div>
 					<div class="col-sm-6 col-lg-4">
 						<h3>Feature Description</h3>
 						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, adipisci recusandae veniam laudantium distinctio temporibus eveniet dolorum earum iusto veritatis provident ducimus minima dolore quas vel omnis cumque voluptas quibusdam.</p>
-						<p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+						<p><a class="btn btn-link" href="#">View details »</a></p>
 					</div>
 					<div class="col-sm-6 col-lg-4">
 						<h3>Feature Description</h3>
 						<p> <em class="icon-desktop "></em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, earum rem nostrum provident repellat inventore laborum deleniti quas facere Quasi impedit autem qui cupiditate modi vero vitae dolorum nisi explicabo ea dolores animi. Inventore, omnis.</p>
-						<p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+						<p><a class="btn btn-link" href="#">View details »</a></p>
 					</div>
 					<div class="col-sm-6 col-lg-4">
 						<h3>Feature Description</h3>
 						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, iure, perspiciatis, ab ad quia animi esse repudiandae tempore quisquam dolorem sequi voluptatum qui fugiat. Quasi impedit autem qui cupiditate iusto?</p>
-						<p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+						<p><a class="btn btn-link" href="#">View details »</a></p>
 					</div>
 					<div class="col-sm-6 col-lg-4">
 						<h3>Feature Description</h3>
 						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, aut, hic laudantium reprehenderit sapiente nemo consequatur corrupti accusantium! Hic, non rerum nihil reprehenderit excepturi explicabo error tempore aliquam eveniet odit.</p>
-						<p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+						<p><a class="btn btn-link" href="#">View details »</a></p>
 					</div>
 				</div>
 			</div>
 		</section>
+		
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-8 mx-auto">
 					<div class="jumbotron">
 						<div class="row text-center">
 							<div class="text-center col-12">
-								<h2>Request a free quote</h2>
+								<h2>usaurioRAWR</h2>
 							</div>
 							<div class="text-center col-12">
-								<!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
 								<form id="feedbackForm" class="text-center">
 									<div class="form-group">
-										<label for="name">Name</label>
-									 	<input type="text" class="form-control" id="name" name="name" placeholder="Name" aria-describedby="nameHelp">
-									 	<span id="nameHelp" class="form-text text-muted" style="display: none;">Please enter your name.</span>
+										<label for="name">Instagram</label>
+										<p type="text" class="form-control">
+											<a href="https://www.instagram.com/usauriorawr/">usaurioRAWR</a>
+										</p>							 
 									</div>
 									<div class="form-group">
-										<label for="email">E-Mail</label>
-										<input type="email" class="form-control" id="email" name="email" placeholder="Email Address" aria-describedby="emailHelp">
-										<span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span>
+										<label for="name">Twitter</label>
+										<p type="text" class="form-control">
+											<a href="https://twitter.com/usaurioRAWR">@usaurioRAWR</a>
+										</p>
 									</div>
 									<div class="form-group">
-										<label for="message">Message</label>
-										<textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Message" aria-describedby="messageHelp"></textarea>
-										<span id="messageHelp" class="form-text text-muted" style="display: none;">Please enter a message.</span>
+										<label for="name">E-mail</label>
+										<p type="text" class="form-control">
+											<a href="mailto:usaurioRAWR@gmail.com">usaurioRAWR@gmail.com</a>
+										</p>
 									</div>
-									<button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg"> Send</button>
 								</form>
 							</div>
 						</div>
@@ -222,19 +244,23 @@
 				</div>
 			</div>
 		</div>
+		
 		<footer class="text-center">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<p>Copyright © MyWebsite. All rights reserved.</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<p>Copyright © usaurioRAWR-School.</p>
+					</div>
 				</div>
 			</div>
-			</div>
 		</footer>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+		
+		<script src="js/google_translate_element.js"></script> 	
+ 		<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
 		<script src="js/jquery-3.4.1.min.js"></script> 
-		<!-- Include all compiled plugins (below), or include individual files as needed --> 
 		<script src="js/popper.min.js"></script> 
 		<script src="js/bootstrap-4.4.1.js"></script>
+		
 	</body>
+	
 </html>

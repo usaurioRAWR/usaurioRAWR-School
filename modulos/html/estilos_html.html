@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Estilos HTML - usaurioRAWR-Schools</title>
+		<link href="../../css/css.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="../../imagenes/dino_icon_verde_32px.ico">
+	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="../../index.html">usaurioRAWR-Schools</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+				<span class="navbar-toggler-icon"></span> 
+			</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active"> 
+							<a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a> 
+						</li>
+						<li class="nav-item"> 
+							<a class="nav-link" href="https://github.com/usaurioRAWR/Lenguaje-de-marcado">GitHub</a> 
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contenido</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="introduccion_html.html">HTML</a>
+								<a class="dropdown-item" href="../css/introduccion_css.html">CSS</a> 
+								<a class="dropdown-item" href="../svg/introduccion_svg.html">SVG</a>
+								<a class="dropdown-item" href="../xhtml/introduccion_xhtml.html">XHTML</a>
+								<a class="dropdown-item" href="../markdown/introduccion_markdown.html">Markdown</a>
+								<a class="dropdown-item" href="../javascript/introduccion_javascript.html">JavaScript</a> 
+							<div class="dropdown-divider"></div>
+							</div>
+						</li>
+						<li class="nav-item"> 
+							<a class="nav-link disabled" href="">🤫&nbsp;&nbsp;1°ASIR</a>
+						</li>
+					</ul>
+					<div class="dropdown-divider"></div>
+					<div id='google_translate_element'></div>
+				</div>
+		</nav>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="jumbotron">
+						<h1 class="text-center">Estilos HTML&nbsp;</h1>
+						<br>
+						<div class="row justify-content-center">
+							<div class="col-auto">
+								<p>
+									<a class="btn btn-success btn-lg" href="parrafos_html.html" role="button">Anterior</a> 
+								</p>
+							</div>
+							<div class="col-auto">
+								<p>
+									<a class="btn btn-primary btn-lg" href="formato_texto_html.html" role="button" >Siguiente</a> 
+								</p>
+							</div>
+						</div>
+						<p class="text-center">El atributo <strong>style</strong> se utiliza para agregar estilos a un elemento, como color, fuente, tamaño y más.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">Ejemplo&nbsp;</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+							<p>I am normal</p>
+							<p style="color:red;">I am red</p>
+							<p style="color:blue;">I am blue</p>
+							<p style="font-size:50px;">I am big</p>
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_intro" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">El atributo de estilo HTML</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>Establecer el estilo de un elemento HTML, se puede hacer con el atributo <strong>style</strong>. El cual tiene la siguiente sintaxis.</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;tagname style="property:value;"&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+					</div>		 
+					<div class="text-left">
+						<p>La <strong>propiedad</strong> es una propiedad CSS. El <strong>valor</strong> es un valor CSS. </p>
+					</div> 
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">Color de fondo</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>La propiedad <strong>background-color</strong> define el color de fondo de un elemento HTML. </p>
+						<p>Color de fondo de una página en powderblue.</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;body style="background-color:powderblue;"&gt; 
+&lt;h1&gt;This is a heading&lt;/h1&gt; 
+&lt;p&gt;This is a paragraph.&lt;/p&gt; 
+&lt;/body&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_intro" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		 
+					<div class="text-left">
+						<p>Color de fondo para dos elementos diferentes: </p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;body&gt; 
+&lt;h1 style="background-color:powderblue;"&gt;This is a heading&lt;/h1&gt; 
+&lt;p style="background-color:tomato;"&gt;This is a paragraph.&lt;/p&gt; 
+&lt;/body&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_intro" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">Color del texto</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>La propiedad <strong>color</strong> define el color del texto para un elemento HTML.</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;h1 style="color:blue;"&gt;This is a heading&lt;/h1&gt; 
+&lt;p style="color:red;"&gt;This is a paragraph.&lt;/p&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_color" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		   
+				</div>
+			</div>
+		</div>
+		<hr>
+
+		<section><h2 class="text-center">Fuentes</h2>
+		</section>
+
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>La propiedad <strong>font-family</strong> define la fuente que se utilizará para un elemento HTML.</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;h1 style="font-family:verdana;"&gt;This is a heading&lt;/h1&gt; 
+&lt;p style="font-family:courier;"&gt;This is a paragraph.&lt;/p&gt;
+</code></pre>   
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_font-family" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		 	  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">Tamaño del texto</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>La propiedad <strong>font-size</strong> define el tamaño de texto de un elemento HTML.</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;h1 style="font-size:300%;"&gt;This is a heading&lt;/h1&gt; 
+&lt;p style="font-size:160%;"&gt;This is a paragraph.&lt;/p&gt;&nbsp;
+</code></pre> 
+<!------------------------------------------------>  
+						</div>
+							<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_font-size" class="btn btn-primary">
+								<strong>Inténtalo tú mismo</strong>
+							</a>
+					</div>		 	  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">Alineación de texto</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>La propiedad <strong>text-align</strong> define la alineación horizontal del texto para un elemento HTML.</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;h1 style="text-align:center;"&gt;Centered Heading&lt;/h1&gt; 
+&lt;p style="text-align:center;"&gt;Centered paragraph.&lt;/p&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_text-align" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		 	  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="container">
+			<div class="row">
+				<div class="container py-sm-4">
+					<div class="row">
+						<div class="col-md-10 my-4 mx-auto">
+							<a href="elementos_html.html">
+								<h2 class="text-center">Elementos HTML</h2>
+							</a>
+							<hr>
+							<div class="row no-gutters my-3">
+								<div class="col-md-4 pr-2"></div>
+								<div class="col-md-4">
+									<div class="list-group text-center">
+										<a href="atributos_html.html" class="list-group-item">Atributos HTML</a>
+										<a href="encabezados_html.html" class="list-group-item">Encabezados HTML</a>
+										<a href="parrafos_html.html" class="list-group-item">Párrafos HTML</a>
+										<a href="estilos_html.html" class="list-group-item">Estilos HTML</a>
+										<a href="formato_texto_html.html" class="list-group-item">Fotmato texto HTML</a>
+									</div>
+								</div>
+								<div class="col-md-4 pl-2"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<footer class="text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<p>Copyright © usaurioRAWR-School.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../../js/google_translate_element.js"></script> 	
+		<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+		<script src="../../js/jquery-3.4.1.min.js"></script>
+		<script src="../../js/popper.min.js"></script>
+		<script src="../../js/bootstrap-4.4.1.js"></script>
+	</body>
+</html>

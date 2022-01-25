@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Atributos HTML - usaurioRAWR-Schools</title>
+		<link href="../../css/css.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="../../imagenes/dino_icon_verde_32px.ico">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="../../index.html">usaurioRAWR-Schools</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+				<span class="navbar-toggler-icon"></span> 
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"> 
+						<a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a> 
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link active" href="https://github.com/usaurioRAWR/Lenguaje-de-marcado">GitHub</a> 
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contenido</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="introduccion_html.html">HTML</a>
+							<a class="dropdown-item" href="../css/introduccion_css.html">CSS</a> 
+							<a class="dropdown-item" href="../svg/introduccion_svg.html">SVG</a>
+							<a class="dropdown-item" href="../xhtml/introduccion_xhtml.html">XHTML</a>
+							<a class="dropdown-item" href="../markdown/introduccion_markdown.html">Markdown</a>
+							<a class="dropdown-item" href="../javascript/introduccion_javascript.html">JavaScript</a> 
+							<div class="dropdown-divider"></div>
+						</div>
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link disabled" href="">🤫&nbsp;&nbsp;1°ASIR</a>
+					</li>
+				</ul>
+				<div class="dropdown-divider"></div>
+				<div id='google_translate_element'></div>
+			</div>
+		</nav>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="jumbotron">
+						<h1 class="text-center">Atributos HTML</h1>
+						<br>
+						<div class="row justify-content-center">
+							<div class="col-auto">
+								<p>
+									<a class="btn btn-success btn-lg" href="elementos_html.html" role="button">Anterior</a> 
+								</p>
+							</div>
+							<div class="col-auto">
+								<p>
+									<a class="btn btn-primary btn-lg" href="encabezados_html.html" role="button" >Siguiente</a>
+								</p>
+							</div>
+						</div>
+						<p class="text-center">Los atributos HTML proporcionan información adicional sobre los elementos HTML.</p>
+						<div alt="" class="img-fluid"> 
+							<h3>Atributos HTML</h3>
+							<ul>
+								<li>Todos los elementos HTML pueden tener atributos</li>
+								<li>Los atributos proporcionan información adicional sobre los elementos.</li>
+								<li>Los atributos siempre se especifican en la etiqueta de inicio</li>
+								<li>Los atributos generalmente vienen en pares de nombre / valor como: nombre = "valor"</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">El atributo href</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>La &lt;a&gt;etiqueta define un hipervínculo. El hrefatributo especifica la URL de la página a la que va el enlace:</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+						<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;a href="https://www.w3schools.com"&gt;Visit W3Schools&lt;/a&gt; &nbsp;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+					<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_link" class="btn btn-primary">
+						<strong>Inténtalo tú mismo</strong>
+					</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">El atributo src</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>La etiqueta &lt;img&gt; se utiliza para incrustar una imagen en una página HTML. El atributo src especifica la ruta a la imagen que se mostrará:</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+						<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;img src="img_girl.jpg"&gt;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_img_src" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">Los atributos de ancho y alto&nbsp;</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>La &lt;img&gt;etiqueta también debe contener los atributos widthy height, que especifican el ancho y el alto de la imagen (en píxeles):</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+						<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;img src="img_girl.jpg" width="500" height="600"&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs1" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>  
+		<section>
+			<h2 class="text-center">El atributo alt</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>El atributo&nbsp;<strong>alt</strong> requerido para la etiqueta&nbsp;<strong>&lt;img&gt;</strong> especifica un texto alternativo para una imagen, si la imagen por alguna razón no se puede mostrar. Esto puede deberse a una conexión lenta, o a un error en el atributo <strong>src</strong>, o si el usuario utiliza un lector de pantalla.</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+						<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;img src="img_girl.jpg" alt="Girl with a jacket"&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_alt" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		 
+					<div class="text-left">
+						<p>Vea lo que sucede si intentamos mostrar una imagen que no existe: </p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+						<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;img src="img_typo.jpg" alt="Girl with a jacket"&gt;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_alt_error" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">El atributo de estilo</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>El atributo <strong>style</strong> se usa para agregar estilos a un elemento, como color, fuente, tamaño y más.</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;p style="color:red;"&gt;This is a red paragraph.&lt;/p&gt;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_style" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>  
+		<section>
+			<h2 class="text-center">El atributo lang</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>Siempre debe incluir el atributo dentro de la etiqueta, para declarar el idioma de la página Web. Esto está destinado a ayudar a los motores de búsqueda y navegadores.lang&lt;html&gt;&nbsp;</p>
+						<p>En el ejemplo siguiente se especifica el inglés como idioma:</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;!DOCTYPE html&gt; 
+	&lt;html lang="en"&gt; 
+		&lt;body&gt; 
+		... 
+		&lt;/body&gt; 
+&lt;/html&gt;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+					</div>		 
+					<div class="text-left">
+						<p>Los códigos de país también se pueden agregar al código de idioma en el atributo. Por lo tanto, los dos primeros caracteres definen el idioma de la página HTML, y los dos últimos caracteres definen el país.lang&nbsp;</p>
+						<p>En el ejemplo siguiente se especifica el inglés como idioma y los Estados Unidos como país: </p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;!DOCTYPE html&gt; 
+	&lt;html lang="en-US"&gt; 
+		&lt;body&gt; 
+		... 
+		&lt;/body&gt; 
+&lt;/html&gt;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">El atributo title</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>El atributo <strong>title</strong> define cierta información adicional sobre un elemento.&nbsp;</p>
+						<p>El valor del atributo title se mostrará como información sobre herramientas cuando pase el ratón por encima del elemento:</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&nbsp;&lt;p title="I'm a tooltip"&gt;This is a paragraph.&lt;/p&gt;
+</code></pre> 
+<!------------------------------------------------> 
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_title" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr> 
+		<section>
+			<h2 class="text-center">Sugerimos: Use siempre atributos en minúsculas</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>El estándar HTML no requiere nombres de atributos en minúsculas.</p>
+						<p>El atributo title (y todos los demás atributos) se pueden escribir en mayúsculas o minúsculas como title o TITLE.</p>
+						<p>Sin embargo, el W3C recomienda atributos en minúsculas en HTML y exige atributos en minúsculas para tipos de documentos más estrictos como XHTML.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr> 
+		<section>
+			<h2 class="text-center">Sugerimos: Siempre cite los valores de atributo</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>El estándar HTML no requiere comillas alrededor de los valores de atributo.&nbsp;</p>
+						<p>Sin embargo, el W3C recomienda citas en HTML y exige citas para tipos de documentos más estrictos como XHTML.</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Bien:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&nbsp;&lt;a href="https://www.w3schools.com/html/"&gt;Visit our HTML tutorial&lt;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Malo:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&nbsp;&lt;a href=https://www.w3schools.com/html/&gt;Visit our HTML tutorial&lt;/a&gt;
+</code></pre> 
+<!------------------------------------------------> 
+						</div>
+					</div>	
+						<div class="text-left">
+							<p>A veces hay que usar comillas. En este ejemplo no se mostrará correctamente el atributo title, ya que contiene un espacio:</p>
+						</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+						<pre><code>
+&lt;p title=About W3Schools&gt;
+						</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_error" class="btn btn-primary">
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">¿Cotizaciones simples o dobles?</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>Las comillas dobles alrededor de los valores de atributo son las más comunes en HTML, pero también se pueden usar comillas simples.</p>
+						<p>En algunas situaciones, cuando el valor del atributo en sí contiene comillas dobles, es necesario usar comillas simples:</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+						<pre><code>
+&lt;p title='John "ShotGun" Nelson'&gt;
+						</code></pre>  
+<!------------------------------------------------>
+						</div>
+					</div>		 	
+					<div class="text-left">
+						<p>O viceversa:</p>
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+						<pre><code>
+&nbsp;&lt;p title="John 'ShotGun' Nelson"&gt;
+						</code></pre>  
+<!------------------------------------------------>
+						</div>
+						<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_single_double" class="btn btn-primary">		
+							<strong>Inténtalo tú mismo</strong>
+						</a>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>
+
+		<div class="container">
+			<div class="row">
+				<div class="container py-sm-4">
+					<div class="row">
+						<div class="col-md-10 my-4 mx-auto">
+							<a href="elementos_html.html">
+								<h2 class="text-center">Elementos HTML</h2>
+							</a>
+							<hr>
+							<div class="row no-gutters my-3">
+								<div class="col-md-4 pr-2"></div>
+								<div class="col-md-4">
+									<div class="list-group text-center">
+										<a href="atributos_html.html" class="list-group-item">Atributos HTML</a>
+										<a href="encabezados_html.html" class="list-group-item">Encabezados HTML</a>
+										<a href="parrafos_html.html" class="list-group-item">Párrafos HTML</a>
+										<a href="estilos_html.html" class="list-group-item">Estilos HTML</a>
+										<a href="formato_texto_html.html" class="list-group-item">Fotmato texto HTML</a>
+									</div>
+								</div>
+								<div class="col-md-4 pl-2"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<footer class="text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<p>Copyright © usaurioRAWR-School.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../../js/google_translate_element.js"></script> 	
+ 		<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+		<script src="../../js/jquery-3.4.1.min.js"></script>
+		<script src="../../js/popper.min.js"></script>
+		<script src="../../js/bootstrap-4.4.1.js"></script>
+	</body>
+</html>

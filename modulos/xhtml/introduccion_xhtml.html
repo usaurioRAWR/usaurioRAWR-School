@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Introducción HTML - usaurioRAWR-Schools</title>
+		<link href="../../css/css.css" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="../../imagenes/dino_icon_verde_32px.ico">
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="../../index.html">usaurioRAWR-Schools</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+				<span class="navbar-toggler-icon"></span> 
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"> 
+						<a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a> 
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link active" href="https://github.com/usaurioRAWR/Lenguaje-de-marcado">GitHub</a> 
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contenido</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="../html/introduccion_html.html">HTML</a>
+							<a class="dropdown-item" href="../css/introduccion_css.html">CSS</a> 
+							<a class="dropdown-item" href="../svg/introduccion_svg.html">SVG</a>
+							<a class="dropdown-item" href="introduccion_xhtml.html">XHTML</a>
+							<a class="dropdown-item" href="../markdown/introduccion_markdown.html">Markdown</a>
+							<a class="dropdown-item" href="../javascript/introduccion_javascript.html">JavaScript</a> 
+							<div class="dropdown-divider"></div>
+					  </div>
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link disabled" href="">🤫&nbsp;&nbsp;1°ASIR</a>
+					</li>
+				</ul>
+				<div class="dropdown-divider"></div>
+				<div id='google_translate_element'></div>
+			</div>
+		</nav>
+		
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="jumbotron">
+						<h1 class="text-center">Introducción a&nbsp;XHTML</h1>
+						<br>
+							<div class="row justify-content-center">
+								<div class="col-auto">
+									<p>
+										<a class="btn btn-success btn-lg" href="../../index.html" role="button">Inicio</a> 
+									</p>
+								</div>
+							</div>
+						<p class="text-center">XHTML es una versión más estricta y basada en XML de HTML.</p>
+						<div alt="" class="img-fluid"> 
+						  <h3>¿Qué es XHTML?</h3>
+							<ul>
+							  <li>XHTML significa E<strong>X</strong>tensible <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</li>
+							  <li>XHTML es una versión más estricta y basada en XML de HTML</li>
+							  <li>XHTML es HTML definido como una aplicación XML</li>
+							  <li>XHTML es compatible con todos los principales navegadores</li>
+                          </ul>
+						</div>
+						<div alt="" class="img-fluid"> 
+						  <h3>¿Por qué XHTML?</h3>
+								<p>XML es un lenguaje de marcado donde todos los documentos deben estar marcados correctamente (estar "bien formados").</p>
+								<p>XHTML fue desarrollado para hacer html más extensible y flexible para trabajar con otros formatos de datos (como XML). Además, los navegadores ignoran los errores en las páginas HTML e intentan mostrar el sitio web incluso si tiene algunos errores en el marcado. Por lo tanto, XHTML viene con un manejo de errores mucho más estricto.</p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="text-center col-md-6 col-12">
+					<h3>Online</h3>
+					<div class="section1Content">
+					  <p><span>Nombre :&nbsp;Introducción a XHTML</span> </p>
+						<p><span>Autor :&nbsp;Javier Eguíluz Pérez</span> </p>
+						<p><span>Editorial :&nbsp;https://uniwebsidad.com/</span> </p>
+						<p><span>Web :&nbsp;https://uniwebsidad.com/libros/xhtml</span> </p>
+				  </div>
+					<a class="btn btn-danger btn-lg" href="https://uniwebsidad.com/libros/xhtml" role="button">Tutorial</a>
+				</div>
+				<div class="text-center col-md-6 col-12">
+					<h3>&nbsp;PDF</h3>
+					<div class="section1Content">
+						<p><span>Nombre :&nbsp;Introducción a XHTML</span> </p>
+						<p><span>Autor :&nbsp;Javier Eguíluz Pérez</span> </p>
+						<p><span>Editorial :&nbsp;https://uniwebsidad.com/</span> </p>
+						<p><span>Web :&nbsp;https://uniwebsidad.com/libros/xhtml</span> </p>
+					</div>
+					<a class="btn btn-info btn-lg" href="https://raw.githubusercontent.com/usaurioRAWR/Lenguaje-de-marcado/master/Tema%201/Documentation/Apuntes/XHTML.pdf" role="button">Descargar.</a>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">Elementos y atributos obligatorios</h2>
+		</section>
+
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<br>
+					<div class="text-left">
+						<p>¡Un documento XHTML debe tener un XHTML &lt;!DOCTYPE&gt; declarado.</p>
+						<p>Los&nbsp;elements  &lt;html&gt;, &lt;head&gt;, &lt;title&gt; y &lt;body&gt; también deben estar presentes y el atributo xmlns de &lt;html&gt; debe especificar el espacio de nombres xml para el documento.&nbsp;</p>
+					</div>
+				  <div class="alert alert-secondary jumbotron_code">
+					<h3>Ejemplo</h3>
+						<p>Aquí hay un documento XHTML con un mínimo de etiquetas requeridas:</p>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+	&lt;head&gt; 
+		&lt;title&gt;Title of document&lt;/title&gt; 
+	&lt;/head&gt; 
+	&lt;body&gt; 
+		some content here... 
+	&lt;/body&gt; 
+&lt;/html&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">Los elementos XHTML deben estar anidados correctamente</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+					  <p>En XHTML, los elementos siempre deben estar correctamente anidados entre sí, de la siguiente manera:</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Correcto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&nbsp;&lt;b&gt;&lt;i&gt;Some text&lt;/i&gt;&lt;/b&gt;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+			  	  </div>	
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Incorrecto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;b&gt;&lt;i&gt;Some text&lt;/b&gt;&lt;/i&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+						</div>
+					</div>		  
+				</div>
+			</div>
+		</div>
+		<br>
+		<hr>
+		<section>
+			<h2 class="text-center">Los elementos XHTML siempre deben estar cerrados</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+					  <p>En XHTML, los elementos siempre deben estar cerrados, así:</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Correcto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;p&gt;This is a paragraph&lt;/p&gt; 
+&lt;p&gt;This is another paragraph&lt;/p&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>	
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Incorrecto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;p&gt;This is a paragraph 
+&lt;p&gt;This is another paragraph
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>		  
+				</div>
+		  </div>
+	</div>
+		<br>
+		<hr>
+		<section>
+			<h2 class="text-center">Los elementos vacíos XHTML siempre deben cerrarse</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+					  <p>En XHTML, los elementos vacíos siempre deben estar cerrados, así:</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Correcto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+A break: &lt;br /&gt; 
+A horizontal rule: &lt;hr /&gt; 
+An image: &lt;img src="happy.gif" alt="Happy face" /&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>	
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Incorrecto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+A break: &lt;br&gt; 
+A horizontal rule: &lt;hr&gt; 
+An image: &lt;img src="happy.gif" alt="Happy face"&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>		  
+				</div>
+		  </div>
+	</div>
+		<br>
+		<hr>
+		<section>
+			<h2 class="text-center">Los elementos XHTML deben estar en minúsculas</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>En XHTML, los nombres de los elementos siempre deben estar en minúsculas, como este:</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Correcto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;body&gt; 
+&lt;p&gt;This is a paragraph&lt;/p&gt; 
+&lt;/body&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>	
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Incorrecto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;BODY&gt; 
+&lt;P&gt;This is a paragraph&lt;/P&gt; 
+&lt;/BODY&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>		  
+				</div>
+		  </div>
+	</div>
+		<br>
+		<hr>
+		<section>
+			<h2 class="text-center">Los nombres de atributos XHTML deben estar en minúsculas</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>En XHTML, los nombres de atributo siempre deben estar en minúsculas, como este:</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Correcto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;a href="https://www.w3schools.com/html/"&gt;Visit our HTML tutorial&lt;/a&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>		
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Incorrecto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;a HREF="https://www.w3schools.com/html/"&gt;Visit our HTML tutorial&lt;/a&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>		  
+				</div>
+		  </div>
+	</div>
+		<br>
+		<hr>
+		<section>
+			<h2 class="text-center">Los valores de atributo XHTML deben estar citados</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>En XHTML, los valores de atributo siempre deben citarse, de la siguiente manera:</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Correcto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;a href="https://www.w3schools.com/html/"&gt;Visit our HTML tutorial&lt;/a&gt;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>	
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Incorrecto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;a href=https://www.w3schools.com/html/&gt;Visit our HTML tutorial&lt;/a&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>		  
+				</div>
+		  </div>
+	</div>
+	<br>
+		<hr>
+		<section>
+			<h2 class="text-center">Los valores de atributo XHTML deben estar citados</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-left">
+						<p>En XHTML, los valores de atributo siempre deben citarse, de la siguiente manera:</p> 
+					</div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Correcto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;a href="https://www.w3schools.com/html/"&gt;Visit our HTML tutorial&lt;/a&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>
+					<div class="alert alert-secondary jumbotron_code">
+					<h3>Incorrecto:</h3>
+						<div class="alert alert-dark">
+<!------------------------------------------------>
+<pre><code>
+&lt;a href=https://www.w3schools.com/html/&gt;Visit our HTML tutorial&lt;/a&gt;&nbsp;
+</code></pre>  
+<!------------------------------------------------>
+					  </div>
+				  </div>		  
+				</div>
+		  </div>
+		</div>
+		<hr>
+		<section>
+			<h2 class="text-center">Valida tu HTML con el validador W3C</h2>
+		</section>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12">
+					<button type="button" class="btn btn-dark d-block mx-auto">Dark</button>
+					<hr>
+				</div>
+		  </div>
+	</div>
+		<br>
+		<hr>
+		<footer class="text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<p>Copyright © usaurioRAWR-School.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../../js/google_translate_element.js"></script> 	
+ 		<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+		<script src="../../js/jquery-3.4.1.min.js"></script>
+		<script src="../../js/popper.min.js"></script>
+		<script src="../../js/bootstrap-4.4.1.js"></script>
+	</body>
+</html>
